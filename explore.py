@@ -6,7 +6,7 @@ import pickle
 
 
 def load_model():
-    with open('/Users/kumanan/OneDrive/Desktop/ml/disease_predictor.pkl', 'rb') as file:
+    with open('disease_predictor.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
