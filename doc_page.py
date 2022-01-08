@@ -20,7 +20,7 @@ def doc():
     cols=st.columns([3,2])
     cols[0].write("""
     Click the below link, for the Github repo.
-    https://github.com/Hafiz408/My-Doctor
+    https://github.com/Kumanan15/Disease_Predictor
     """)
     # github = cols[1].button("Here.")
     # if github:
