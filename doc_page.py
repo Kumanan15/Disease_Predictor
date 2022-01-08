@@ -3,7 +3,7 @@ import streamlit as st
 
 
 
-url = 'https://github.com/Hafiz408/My-Doctor'
+url = 'https://github.com/Kumanan15/Disease_Predictor'
 
 def doc():
     st.balloons()
