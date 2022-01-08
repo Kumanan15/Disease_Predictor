@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def load_model():
-    with open('/Users/kumanan/OneDrive/Desktop/ml/disease_predictor.pkl', 'rb') as file:
+    with open('disease_predictor.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
@@ -21,7 +21,7 @@ description = data["description"]
 
 
 def show_predict_page():
-    st.image("/Users/kumanan/OneDrive/Desktop/ml/doc 1.jpeg")
+    st.image("doc 1.jpeg")
     st.title("  I Doctor  ")
     st.write("")
     cols = st.columns([1, 8, 1])
